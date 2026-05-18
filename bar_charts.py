@@ -8,7 +8,7 @@ values=np.array([4,3,2,5,3,1])
 #vertical bar chart
 plt.bar(categories,values,color="pink")
 #horizontal bar chart
-plt.barh(categories,values,color="pink")
+plt.barh(categories,values,color="green")
 
 plt.title("Daily Consumption")
 plt.xlabel("Food")
